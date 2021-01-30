@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+h1{
+    margin: 10px;
+    font-family: 'Josefin Slab', serif;
+}
+h3{
+    font-family: 'Josefin Slab', serif;
+}
+h5, h4, h6{
+    font-family: 'Quicksand', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+}
+body{
+    background-color: rgb(221, 220, 220);
+}
+
+.garis{
+    border-style: none solid none none;
+}
+
+nav{
+    margin-bottom: 20px;
+    background-color: rgb(233, 233, 233)!important;
+}
+.nav-item{
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.konten{
+    width: 78%;
+    float: left;
+    padding: 20px;
+    
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+}
+.tempat{
+    width: 20%;
+    float: right;
+    padding: 15px;
+    /* padding-top: 0 !important; */
+    
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+    
+}
+.list-group-item{
+    border: none;
+}
+.breadcrumb{
+    background-color: rgb(233, 233, 233) !important;
+}
+
+.potong td{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis !important;
+    max-width: 250px!important;
+    
+}
+
+/* .list{
+    width: 30%;
+    float: right;
+    padding: 10px;
+    padding-top: 0 !important;
+} */
+@media screen and (max-width: 1000px) {
+    .konten,
+    .tempat {
+        width: 100%;
+        margin-bottom: 10px;
+
+    }     
+}
+
+/* @media screen and (max-width: 1000px) {
+    .responsif{
+        color: red;
+    }
+} */
+
+
+.responsif{
+    height: 1cm;
+}
+
+.bg{
+    background-color: rgb(233, 233, 233);
+}
+
+.coba{
+    margin-top: 15px;
+}
+main{
+    padding: 10px;
+}
+
+.detail{
+    padding: 20px;
+    margin: 20px;
+    
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+ 
+}
+.row{
+    margin-top: 10px;
+}
+.area{
+    margin: 40px;
+    padding: 20px;
+    
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+    
+}
+
+.log{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+}
+.jarak{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+  
+    clear: both;
+    width: 100%;
+    height: 40px;
+    /* margin-bottom: 10px; */
+    background-color: rgb(233, 233, 233) ;
+    margin-top: 50px;
+    
+}
+footer p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
